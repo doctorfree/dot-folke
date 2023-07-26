@@ -10,7 +10,6 @@ return {
     },
     cmd = "MurenToggle",
   },
-  { "3rd/image.nvim", opts = {}, ft = "markdown", lazy = false, enabled = true },
   {
     "folke/flash.nvim",
     enabled = true,

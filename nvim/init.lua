@@ -27,18 +27,7 @@ vim.api.nvim_create_autocmd("User", {
 })
 
 -- vim.g.profile_loaders = true
-require("config.lazy")({
-  debug = false,
-  defaults = {
-    lazy = true,
-    -- cond = false,
-  },
-  performance = {
-    cache = {
-      enabled = true,
-    },
-  },
-})
+require("config.lazy")
 
 -- require("util.dashboard").setup()
 
