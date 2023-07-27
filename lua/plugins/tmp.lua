@@ -1,5 +1,5 @@
 return {
-  { "nvim-telescope/telescope.nvim", dev = true },
+  { "nvim-telescope/telescope.nvim" },
   {
     "AckslD/muren.nvim",
     opts = {
